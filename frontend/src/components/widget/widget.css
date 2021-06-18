@@ -1,0 +1,97 @@
+.widget{
+    flex: 3.5;
+}
+.widgetWrapper {
+    padding: 20px 20px 0 0;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+.birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.birthdayText {
+    font-weight: 300;
+    font-size: 15px;
+}
+.widgetAd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.widgetTitle{
+    margin-bottom: 20px;
+}
+.widgetFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.widgetFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.widgetProfileImgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+.widgetProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+}
+.widgetUsername{
+    font-weight: bold;
+}
+.widgetTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.widgetInfo{
+    margin-bottom: 30px;
+}
+.widgetInfoItem{
+    margin-bottom: 10px;
+}
+.widgetInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.widgetInfoValue{
+    font-weight: 300;
+}
+.widgetFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.widgetFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.widgetFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
